@@ -1,0 +1,294 @@
+@media only screen and (max-width: 767px) {
+    body{
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction: column;
+    }
+    .footer{
+        margin-top:auto;
+        margin-bottom: 0;
+        position:absolute;
+        bottom: -40px;
+        overflow: hidden;
+        height:40px;
+        background-color: #000;
+        color:#fff;
+        width: 100%;
+        font-family: 'ft88expanded';
+        font-size: 7px;
+    }
+    .footer-content{
+        text-align: center;
+        width:100;
+        padding-top:15px;
+    }
+    .mail{
+        display:none;
+    }
+    #nes-container{
+        border:none;
+    }
+    .info-container{
+        position:relative;
+        flex:1;
+    }
+    .title{
+        visibility: hidden;
+    }
+    .mobile-title{
+        font-family: 'ft88expanded';
+    }
+    .columns-container{
+        display:block;
+        text-align: center;
+    }
+    .text-column{
+        width:100%;
+        margin-top: 50px;
+    }
+    .text-column p{
+        margin-top: 20px;
+        text-align: justify;
+        font-family: 'ft88regular';
+        font-size: small;
+    }
+    .image-column{
+        text-align: center;
+        width:100%;
+    }
+    .image-column img{
+        width:60%;
+        height:auto;
+    }
+    #note{
+        font-size: smaller;
+        font-family: 'ft88regular';
+    }
+    .social-icons-container{
+        padding-top:10px;
+    }
+    .social-icons{
+        text-align: center;
+    }
+    .social-icons a{
+        margin: 0 10px;
+    }
+    .scroll-down-container{
+        visibility: hidden;
+    }
+    .scroll-down-text{
+        visibility: hidden;
+    }
+    .mobile-note-container{
+        width: 100%;
+        position:absolute;
+        top:65%;
+        margin-top: 20px;
+        display:block;
+        text-align:center;
+    }
+    .mobile-note{
+        text-align: center;
+        width:100%;
+        align-content: center;
+        padding:30px;
+        margin-bottom: 20px;
+    }
+    .mobile-note-content{
+        border: 1px solid black;
+        padding:10px;
+    }
+    .mobile-note h2{
+        text-align: center;
+        font-family: 'ft88bold';
+        font-size: medium;
+    }
+    .mobile-note p{
+        text-align: justify;
+        font-family: 'ft88regular';
+        font-size: small;
+    }
+    .programme-link{
+        color:black;
+        text-decoration: none;
+    }
+    .programme-link:hover{
+        background-color: black;
+        color:white;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        min-height: 100vh;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+    }
+    .info-container{
+        width: 60%;
+        max-width: 100%;
+        text-align: center;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        transform: translate(-50%, -50%);
+    }
+    .nes-container{
+        max-height: 80vh;
+        width: 100%;
+    }
+    .title{
+        font-family: 'ft88expanded';
+    }
+    .columns-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding:2%;
+        max-width:100%;
+        max-height: 100%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .image-column{
+        flex:1;
+        text-align: center;
+    }
+    .image-column img{
+        width: 60%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .text-column{
+        max-width: 100%;
+        max-height: 100%;
+        flex:2;
+        text-align: center;
+    }
+    .text-column p {
+        font-size:1em;
+        font-family: 'ft88regular';
+        max-width: 90%;
+        max-height: 90%;
+        text-align: justify;
+    }
+    .programme-link{
+        color: black;
+        text-decoration: none;
+    }
+    .programme-link:hover{
+        background-color: black;
+        color:white;
+        text-decoration: none;
+    }
+    .social-icons-container {
+        flex:1;
+        padding-bottom: 5%;
+        max-width: 100%;
+        height: auto;
+    }
+    .social-icons img{
+        width: 24px;
+        height:auto;
+        margin: 0 10px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    #note{
+        font-size: small;
+        font-family: 'ft88regular';
+    }
+    .social-icons{
+        display:flex;
+        justify-content: center;
+    }
+    .social-icons a{
+        margin: 0 20px;
+    }
+    .mobile-title-container{
+        display: none;
+    }
+.scroll-down-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    height:auto;
+}
+.scroll-down-text{
+    max-width: 100%;
+    height: 35%;
+    width: auto;
+    max-height: 100%;
+    position:absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scroll-down-button{
+    cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/clean2.png') 64 64, auto !important;
+}
+
+.scroll-down-text img{
+    height:30px;
+    width:auto;
+    cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/clean2.png') 64 64, auto !important;
+}
+.scroll-down-text p{
+    font-family: 'ft88regular';
+    font-size:large;
+}
+.hidden-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+.hidden-text p{
+    position:relative;
+    font-size: small;
+    text-align: justify;
+    padding:20px;
+}
+
+.hidden-text.slide-down {
+    max-height: 200px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.hidden-text.slide-up {
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+.hidden-text.visible {
+    display: block;
+    max-height: 200px; /* Set the maximum height you want for the animation */
+    transition: max-height 0.5s ease-in-out;
+    animation-name: slideAnimation;
+    
+}
+.scroll-down-text img.flipped {
+    transform: rotate(180deg);
+}  
+.mobile-title-container{
+    visibility: hidden;
+}
+.mobile-note-container{
+    visibility: hidden;
+    font-size: 0px;
+}
+}
+
+
